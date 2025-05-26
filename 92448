@@ -1,0 +1,103 @@
+*{
+  background: #333;
+  color: #fff;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 15px;
+}
+header p {
+  font-size: 5px;
+}
+main {
+  text-align: center;
+  
+}
+input{
+  padding: 5px;
+  margin: 3px;
+  width: 100%;
+  border: none;
+  transition: 0.5s;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(184,184,184);
+}
+input:hover {
+  background-color:rgb(129,129,129);
+  transform: scale(1.05);
+}
+.sum input{
+  width: 20%;
+  margin: 5px;
+}
+
+button {
+  padding: 7px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 15%;
+  background-color: #d0fa;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #d0ff;
+  transform: scale(1.05);
+  letter-spacing: 1px;
+}
+
+#total {
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color:rgb(255,50,50);
+}
+#total::before {
+  content: 'total: ';
+}
+
+#sbtn button{
+  width: 45%;
+  font-size: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+table th,td{
+  padding: 5px;
+  margin: 5px 0px;
+}
+th{
+    text-transform: uppercase;
+}
+
+#up , #de{
+  
+  padding: 3px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 15%;
+  background-color: #d0fa;
+  transition: 0.5s;
+  
+  
+  
+}
+
+#de:hover , #up:hover{
+  background-color: #d0ff;
+  transform: scale(1.5);
+  letter-spacing: 2px;
+}
